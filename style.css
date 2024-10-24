@@ -103,7 +103,7 @@ header span {
 
 .hamburger span:nth-last-child(odd) {
 	width: 3vw;
-	height: 0.4vw;
+	height: 3px;
 	margin-bottom: 0.6vw;
 	border-radius: 1000px;
 	background: #000000;
@@ -113,7 +113,7 @@ header span {
 
 .hamburger span:nth-child(even) {
 	width: 3.5vw;
-	height: 0.4vw;
+	height: 3px;
 	transition: background-color 0.3s ease;
 }
 
@@ -221,10 +221,6 @@ header span {
 		font-size: 3vw;
 	}
 
-	.square {
-		width: 70vw;
-	}
-
 	nav {
 		width: 100%;
 		border-radius: 2px;
@@ -301,7 +297,7 @@ header span {
 	}
 
 	.square {
-		width: 80em;
+		width: 1400px;
 		max-width: none;
 	}
 
@@ -311,14 +307,14 @@ header span {
 	}
 
 	.article-header {
-		font-size: 5vw;
+		font-size: 9vw;
 		line-height: 1.5;
 		padding: 0 2%;
 	}
 
 	.wrapper p {
 		line-height: 1.5;
-		font-size: 3vw;
+		font-size: 4vw;
 		margin-bottom: 2vw;
 		padding: 0 2%;
 	}
@@ -330,15 +326,34 @@ header span {
 		line-height: 1.5;
 	}
 
+	.nav-title {
+		font-size: 4vw;
+	}
+
+	.parent {
+		height: 80vh;
+	}
+
+	.div1 {
+		font-size: 9vw;
+	}
+
 	.wrapper p {
 		font-size: 1.2rem;
 		line-height: 1.5;
 	}
 
 	.square {
-		display: none;
+		width: 1000px;
 	}
 
+	.wrapper {
+		height: 60vh;
+	}
+
+	.is-blue {
+		height: 60vh;
+	}
 }
 
 .show {
