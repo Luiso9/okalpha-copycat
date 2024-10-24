@@ -1,0 +1,142 @@
+/* Main Wrapper */
+.work-wrapper {
+    padding: 0 15%;
+    max-width: 100vw;
+    width: 100%;
+    overflow: hidden;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 4rem 0;
+    color: #e81c24;
+}
+
+/* Title Styling */
+.work-title h1 {
+    font-size: 5vw; 
+    margin: 0;
+}
+
+.work-title span {
+    background-color: #005cef;
+    width: 100%;
+    max-width: 960px;
+    height: 6px;
+    display: inline-block;
+    margin: 0 0 2rem;
+}
+
+/* Work Content */
+.work-content {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Base Layout */
+.work-base {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+    align-items: center;
+    margin: 0;
+}
+
+/* Header Layout */
+.work-header {
+    display: flex;
+    flex-direction: row; 
+    justify-content: flex-start;
+    align-items: center; 
+    margin: 0;
+}
+
+.drawer-open {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    cursor: pointer;
+    margin: 0;
+    height: 100%;
+}
+
+/* Badge */
+.badge {
+    font-size: 1rem; 
+    font-weight: 600;
+    margin: 0;
+    color: black;
+}
+
+.work-content h2 {
+    font-size: 2.5rem;
+    margin: 0;
+}
+
+.work-divider {
+    background-color: #005cef;
+    width: 100%;
+    max-width: 960px;
+    height: 6px;
+    display: inline-block;
+    margin: 0;
+    margin-bottom: 4rem;
+}
+
+/* Card Styling */
+.work-card {
+    max-width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    display: none;
+    margin-top: 20px;
+    color: white;
+}
+
+.img-card {
+    max-width: 100%;
+    height: fit-content;
+    object-fit: fill;
+}
+
+.card-base {
+    background-color: crimson;
+    text-align: left;
+    padding: 0 2%;
+}
+
+/* Card Titles */
+.card-title h1 {
+    font-size: 2rem; 
+}
+
+.card-title p {
+    font-size: 1.3rem;
+}
+
+/* Open Card */
+.work-card.card-open {
+    display: flex;
+}
+
+/* Media Queries for smaller screens */
+@media screen and (max-width: 768px) {
+    .work-title h1 {
+        font-size: 6vw; 
+    }
+
+    .work-content h2 {
+        font-size: 4vw;
+    }
+
+    .card-title h1 {
+        font-size: 3.5vw;
+    }
+
+    .card-title p {
+        font-size: 2.5vw;
+    }
+}
